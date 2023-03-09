@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    box-sizing: 0;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 50vh;
+    transform: translateY(50%);
+    border: thin solid black;
+    justify-content:space-between;
+    margin: auto;
+    align-content: space-between;
+    border-radius:20px ;
+    color: white;
+    background-color: rgb(58, 54, 54);
+}
+
+.flex-item{
+    padding: 10px
+}
+
+.flex-item:nth-of-type(2){
+    align-self: center;
+}
+.button{
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 5px;
+   
+}
+.advice-tag{
+  color:  hsl(150, 100%, 66%); 
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 5px;
+
+}
+.advice-message{
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
