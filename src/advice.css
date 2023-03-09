@@ -5,13 +5,13 @@ body{
 
 
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:450px) {
 
     .flex{
         display: flex;
         flex-direction: column;
-        align-content: space-around;
-        width: 70% !important;
+        align-content: space-around !important;
+        width: 85% !important;
         height: 60vh !important;  
     }
     .flex-item{
