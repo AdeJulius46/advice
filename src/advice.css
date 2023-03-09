@@ -12,10 +12,12 @@ body{
         flex-direction: column;
         align-content: space-around !important;
         width: 85% !important;
-        height: 60vh !important;  
+        margin: auto!important;
+        height: auto !important; 
+        transform: translateY(50%)!important; 
     }
     .flex-item{
-        padding: 5px
+        padding: 5px !important;
     }
 }
 .flex{
