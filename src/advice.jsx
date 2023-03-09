@@ -3,9 +3,12 @@ import "./advice.css"
 import axios from "axios"
 const Advice = () => {
 
+    const DEFAULT_ADVICE = {
+        id: 117,
+        advice: "It is easy to sit up and take notice, what's difficult is getting up and taking action."
+    }
 
-
-    const [advice, setAdvice]= React.useState()
+    const [advice, setAdvice]= React.useState(DEFAULT_ADVICE )
 
     const advicet = () => {
         
